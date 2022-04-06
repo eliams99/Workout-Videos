@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2a2931 !important;
+}
+
+.navbar {
+  background-color: #34333b;
+}
+
+.navbar-brand {
+  color: #fbc337 !important;
+  font-weight: 500;
+}
+
+.breadcrumb {
+  background-color: #24232b;
+}
+
+.card {
+  background-color: #34333b !important;
+  height: 100%;
+  margin-bottom: 1.5em;
+  transition: all .3s;
+}
+
+.card * {
+  text-decoration: none !important;
+}
+
+.card-text.title {
+  font-weight: 600;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+
+.comment-item {
+  border-radius: 0.25rem;
+  background-color: #34333b;
+  width: fit-content;
+}
+
+.comment-item .author {
+  font-weight: 500;
+}
+
+.comment-item .text {
+  font-size: 1.2em;
+}
+
+.btn-primary, .form-check-input {
+  background-color: #fbc337 !important;
+  border: none !important;
+  color: black !important;
+}
+
+.btn-primary:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem #fbc3377e !important;
+}
